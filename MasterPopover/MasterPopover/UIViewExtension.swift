@@ -70,20 +70,20 @@ class View: UIView, ViewProtocol {
     }
 }
 
-@IBDesignable
-class Button: UIButton, ViewProtocol {
-    @IBInspectable var cornerRadius: CGFloat = 0
-    @IBInspectable var lineWeight: CGFloat = 1
-    @IBInspectable var topBorder: Bool = false
-    @IBInspectable var leftBorder: Bool = false
-    @IBInspectable var rightBorder: Bool = false
-    @IBInspectable var bottomBorder: Bool = false
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        doingAfterLayoutSubview()
-
-    }
-}
+//@IBDesignable
+//class Button: UIButton, ViewProtocol {
+//    @IBInspectable var cornerRadius: CGFloat = 0
+//    @IBInspectable var lineWeight: CGFloat = 1
+//    @IBInspectable var topBorder: Bool = false
+//    @IBInspectable var leftBorder: Bool = false
+//    @IBInspectable var rightBorder: Bool = false
+//    @IBInspectable var bottomBorder: Bool = false
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+//        doingAfterLayoutSubview()
+//
+//    }
+//}
 @IBDesignable
 class Label: UILabel, ViewProtocol {
     @IBInspectable var cornerRadius: CGFloat = 0

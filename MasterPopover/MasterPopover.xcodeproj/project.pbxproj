@@ -17,6 +17,7 @@
 		CE250AA92289739800985F9D /* MasterPopoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE250AA82289739800985F9D /* MasterPopoverUITests.swift */; };
 		CE250AB72289764B00985F9D /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE250AB62289764B00985F9D /* Button.swift */; };
 		CE255FD122898DA80025D9A1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255FD022898DA80025D9A1 /* UIViewExtension.swift */; };
+		CE5B6483228A524D0037D4DD /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6482228A524D0037D4DD /* PopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CE250AAA2289739800985F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE250AB62289764B00985F9D /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		CE255FD022898DA80025D9A1 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		CE5B6482228A524D0037D4DD /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE250A852289739600985F9D /* AppDelegate.swift */,
 				CE250A872289739600985F9D /* ViewController.swift */,
 				CE250A892289739600985F9D /* Main.storyboard */,
+				CE5B6482228A524D0037D4DD /* PopupView.swift */,
 				CE255FD022898DA80025D9A1 /* UIViewExtension.swift */,
 				CE250AB62289764B00985F9D /* Button.swift */,
 				CE250A8F2289739700985F9D /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				CE255FD122898DA80025D9A1 /* UIViewExtension.swift in Sources */,
 				CE250A882289739600985F9D /* ViewController.swift in Sources */,
 				CE250A862289739600985F9D /* AppDelegate.swift in Sources */,
+				CE5B6483228A524D0037D4DD /* PopupView.swift in Sources */,
 				CE250A8E2289739600985F9D /* MasterPopover.xcdatamodeld in Sources */,
 				CE250AB72289764B00985F9D /* Button.swift in Sources */,
 			);
